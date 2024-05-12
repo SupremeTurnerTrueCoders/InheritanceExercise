@@ -22,7 +22,7 @@ namespace Inheritance
         {
 
         }
-        public Reptile(String name, int age, int legs, bool isColdBlooded, bool hasScales, string Enviorment, string Defense)
+        public Reptile(String name, int age, int legs, bool isColdBlooded, bool hasScales, string enviorment, string defense)
         {
 
             Name = name;
@@ -31,8 +31,8 @@ namespace Inheritance
             
             IsColdBlooded = isColdBlooded;
             HasScales = hasScales;
-            Enviorment = Enviorment;
-            Defense = Defense;
+            Enviorment = enviorment;
+            Defense = defense;
 
 
         }
